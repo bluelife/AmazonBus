@@ -5,6 +5,7 @@ import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
+import retrofit2.http.Headers;
 import retrofit2.http.POST;
 import retrofit2.http.Url;
 
@@ -17,6 +18,7 @@ public interface StorageListApi {
     @GET
     Call<ResponseBody> storageList(@Url String url);
 
+    @Headers("Content-Type: application/json")
     @POST("/hz/inventory/delayedLoadUsingContext?viewId=FBA&highestAttemptNumber=1&ref_=xx_xx_cont_xx")
     Call<ResponseBody> updatePrice(@Body RequestBody body);
 }

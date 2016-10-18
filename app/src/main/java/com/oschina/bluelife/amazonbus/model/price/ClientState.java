@@ -9,11 +9,11 @@ import com.google.auto.value.AutoValue;
 
 public class ClientState {
 
-    public String recordsAboveTheFold;
-    public String confirmActionPageMaxRecords;
-    public String totalNumberOfRecords;
-    public String currentNumberOfRecords;
-    public String viewId;
+    public String recordsAboveTheFold="10";
+    public String confirmActionPageMaxRecords="250";
+    public String totalNumberOfRecords="15";
+    public String currentNumberOfRecords="10";
+    public String viewId="FBA";
     public String customActionType;
 
 }

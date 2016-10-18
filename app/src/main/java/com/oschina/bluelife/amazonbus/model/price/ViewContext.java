@@ -16,10 +16,10 @@ public class ViewContext {
     public String action;
     public Integer pageNumber;
     public Integer recordsPerPage;
-    public String sortedColumnId;
-    public String sortOrder;
+    public String sortedColumnId="date";
+    public String sortOrder="DESCENDING";
     public String searchText;
-    public String tableId;
+    public String tableId="myitable";
     public List<Filters> filters = new ArrayList<Filters>();
     public ClientState clientState;
 

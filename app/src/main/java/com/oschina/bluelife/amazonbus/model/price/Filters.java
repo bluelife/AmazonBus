@@ -11,6 +11,6 @@ import java.util.List;
 
 
 public  class Filters {
-    public String filterGroupId;
+    public String filterGroupId="LISTINGS_VIEW";
     public List<FilterCriteria> filterCriteria = new ArrayList<FilterCriteria>();
 }
